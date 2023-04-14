@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@emotion/babel-plugin", "npm:11.10.6"],\
+            ["@emotion/core", "npm:11.0.0"],\
             ["@emotion/react", "virtual:337493045f6eaf2bd14ea7688ef313733ab300c57c17a220b76af9574f8eeab4b047f4a0258e4ac2ffd891ef7d1ae138d89222680394cb171c5ea79f1bbc3530#npm:11.10.6"],\
             ["@emotion/styled", "virtual:337493045f6eaf2bd14ea7688ef313733ab300c57c17a220b76af9574f8eeab4b047f4a0258e4ac2ffd891ef7d1ae138d89222680394cb171c5ea79f1bbc3530#npm:11.10.6"],\
             ["@mui/material", "virtual:337493045f6eaf2bd14ea7688ef313733ab300c57c17a220b76af9574f8eeab4b047f4a0258e4ac2ffd891ef7d1ae138d89222680394cb171c5ea79f1bbc3530#npm:5.12.0"],\
@@ -3261,6 +3262,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/utils", "npm:1.2.0"],\
             ["@emotion/weak-memoize", "npm:0.3.0"],\
             ["stylis", "npm:4.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@emotion/core", [\
+        ["npm:11.0.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-core-npm-11.0.0-03ccf93fb4-d9beeff0c1.zip/node_modules/@emotion/core/",\
+          "packageDependencies": [\
+            ["@emotion/core", "npm:11.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -12883,6 +12893,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["my-affirmation", "workspace:."],\
             ["@emotion/babel-plugin", "npm:11.10.6"],\
+            ["@emotion/core", "npm:11.0.0"],\
             ["@emotion/react", "virtual:337493045f6eaf2bd14ea7688ef313733ab300c57c17a220b76af9574f8eeab4b047f4a0258e4ac2ffd891ef7d1ae138d89222680394cb171c5ea79f1bbc3530#npm:11.10.6"],\
             ["@emotion/styled", "virtual:337493045f6eaf2bd14ea7688ef313733ab300c57c17a220b76af9574f8eeab4b047f4a0258e4ac2ffd891ef7d1ae138d89222680394cb171c5ea79f1bbc3530#npm:11.10.6"],\
             ["@mui/material", "virtual:337493045f6eaf2bd14ea7688ef313733ab300c57c17a220b76af9574f8eeab4b047f4a0258e4ac2ffd891ef7d1ae138d89222680394cb171c5ea79f1bbc3530#npm:5.12.0"],\
