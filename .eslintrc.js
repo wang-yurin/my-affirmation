@@ -1,12 +1,13 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true,
   },
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
@@ -16,7 +17,21 @@ module.exports = {
     },
     ecmaVersion: 'latest',
     sourceType: 'module',
+    project: './tsconfig.json',
   },
-  plugins: ['react', '@typescript-eslint'],
-  rules: {},
+  plugins: ['@typescript-eslint', 'react-hooks', '@emotion', 'prettier'],
+  settings: {
+    'import/resolver': {
+      typescript: {},
+    },
+  },
+  rules: {
+    'react/no-unknown-property': [
+      'error',
+      {
+        ignore: ['css'],
+      },
+    ],
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
+  },
 };
