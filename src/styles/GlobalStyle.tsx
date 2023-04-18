@@ -33,7 +33,15 @@ const GlobalStyle = () => {
         nav,
         section,
         input,
-        textarea,
+        textarea {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font-size: 100%;
+          font: inherit;
+          vertical-align: baseline;
+          box-sizing: border-box;
+        }
         html {
           font-size: 62.5%;
           font-family: 'Spoqa Han Sans Neo', 'sans-serif';
@@ -74,6 +82,10 @@ const GlobalStyle = () => {
         }
         input {
           outline: none;
+        }
+        img {
+          vertical-align: top;
+          max-width: 100%;
         }
       `}
     />
